@@ -40,6 +40,18 @@ public class AdminView extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jDialog1 = new javax.swing.JDialog();
+        jButton1 = new javax.swing.JButton();
+        jLabel71 = new javax.swing.JLabel();
+        jDialog2 = new javax.swing.JDialog();
+        jButton2 = new javax.swing.JButton();
+        jLabel72 = new javax.swing.JLabel();
+        jDialog3 = new javax.swing.JDialog();
+        jButton3 = new javax.swing.JButton();
+        jLabel73 = new javax.swing.JLabel();
+        jDialog4 = new javax.swing.JDialog();
+        jButton4 = new javax.swing.JButton();
+        jLabel74 = new javax.swing.JLabel();
         mainPanel = new javax.swing.JPanel();
         travellerButton = new javax.swing.JButton();
         advisorButton = new javax.swing.JButton();
@@ -111,7 +123,7 @@ public class AdminView extends javax.swing.JFrame {
         jLabel24 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
-        addTour = new javax.swing.JButton();
+        nextAddTour = new javax.swing.JButton();
         jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
         tCancel = new javax.swing.JButton();
@@ -174,6 +186,24 @@ public class AdminView extends javax.swing.JFrame {
         aTripsLabel = new javax.swing.JLabel();
         prevAdvisor = new javax.swing.JButton();
         tDisPanel = new javax.swing.JPanel();
+        tripsDisPanel1 = new javax.swing.JPanel();
+        jLabel63 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
+        jLabel65 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        jLabel69 = new javax.swing.JLabel();
+        tripTravellerLabel1 = new javax.swing.JLabel();
+        tripAdvisorLabel1 = new javax.swing.JLabel();
+        tripDestLabel1 = new javax.swing.JLabel();
+        tripDateLabel1 = new javax.swing.JLabel();
+        tripNoLabel1 = new javax.swing.JLabel();
+        tripAmtLabel1 = new javax.swing.JLabel();
+        confirmTrip = new javax.swing.JButton();
+        tripDisBack1 = new javax.swing.JButton();
+        jLabel70 = new javax.swing.JLabel();
+        tripExtDayLabel1 = new javax.swing.JLabel();
         trAddPanel = new javax.swing.JPanel();
         jLabel38 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
@@ -188,6 +218,169 @@ public class AdminView extends javax.swing.JFrame {
         jLabel33 = new javax.swing.JLabel();
         trCancel = new javax.swing.JButton();
         addTraveller = new javax.swing.JButton();
+        tripsDisPanel = new javax.swing.JPanel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
+        jLabel61 = new javax.swing.JLabel();
+        tripTravellerLabel = new javax.swing.JLabel();
+        tripAdvisorLabel = new javax.swing.JLabel();
+        tripDestLabel = new javax.swing.JLabel();
+        tripDateLabel = new javax.swing.JLabel();
+        tripNoLabel = new javax.swing.JLabel();
+        tripAmtLabel = new javax.swing.JLabel();
+        nextTrip = new javax.swing.JButton();
+        tripDisBack = new javax.swing.JButton();
+        prevTrip = new javax.swing.JButton();
+        jLabel62 = new javax.swing.JLabel();
+        tripExtDayLabel = new javax.swing.JLabel();
+
+        jDialog1.setAlwaysOnTop(true);
+        jDialog1.setLocation(new java.awt.Point(100, 100));
+        jDialog1.setMinimumSize(new java.awt.Dimension(300, 200));
+
+        jButton1.setText("Ok");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
+        jLabel71.setText("The Traveller has been Created");
+
+        javax.swing.GroupLayout jDialog1Layout = new javax.swing.GroupLayout(jDialog1.getContentPane());
+        jDialog1.getContentPane().setLayout(jDialog1Layout);
+        jDialog1Layout.setHorizontalGroup(
+            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jDialog1Layout.createSequentialGroup()
+                .addContainerGap(58, Short.MAX_VALUE)
+                .addComponent(jLabel71)
+                .addContainerGap(69, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addGap(51, 51, 51))
+        );
+        jDialog1Layout.setVerticalGroup(
+            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog1Layout.createSequentialGroup()
+                .addContainerGap(55, Short.MAX_VALUE)
+                .addComponent(jLabel71)
+                .addGap(18, 18, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addContainerGap(81, Short.MAX_VALUE))
+        );
+
+        jDialog2.setAlwaysOnTop(true);
+        jDialog2.setLocation(new java.awt.Point(100, 100));
+        jDialog2.setMinimumSize(new java.awt.Dimension(300, 200));
+
+        jButton2.setText("Ok");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
+        jLabel72.setText("The Traveller has been Created");
+
+        javax.swing.GroupLayout jDialog2Layout = new javax.swing.GroupLayout(jDialog2.getContentPane());
+        jDialog2.getContentPane().setLayout(jDialog2Layout);
+        jDialog2Layout.setHorizontalGroup(
+            jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jDialog2Layout.createSequentialGroup()
+                .addContainerGap(58, Short.MAX_VALUE)
+                .addComponent(jLabel72)
+                .addContainerGap(69, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton2)
+                .addGap(51, 51, 51))
+        );
+        jDialog2Layout.setVerticalGroup(
+            jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog2Layout.createSequentialGroup()
+                .addContainerGap(55, Short.MAX_VALUE)
+                .addComponent(jLabel72)
+                .addGap(18, 18, 18)
+                .addComponent(jButton2)
+                .addContainerGap(81, Short.MAX_VALUE))
+        );
+
+        jDialog3.setAlwaysOnTop(true);
+        jDialog3.setLocation(new java.awt.Point(100, 100));
+        jDialog3.setMinimumSize(new java.awt.Dimension(300, 200));
+
+        jButton3.setText("Ok");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        jLabel73.setText("New Advisor Added");
+
+        javax.swing.GroupLayout jDialog3Layout = new javax.swing.GroupLayout(jDialog3.getContentPane());
+        jDialog3.getContentPane().setLayout(jDialog3Layout);
+        jDialog3Layout.setHorizontalGroup(
+            jDialog3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jDialog3Layout.createSequentialGroup()
+                .addContainerGap(94, Short.MAX_VALUE)
+                .addComponent(jLabel73)
+                .addContainerGap(103, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog3Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton3)
+                .addGap(51, 51, 51))
+        );
+        jDialog3Layout.setVerticalGroup(
+            jDialog3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog3Layout.createSequentialGroup()
+                .addContainerGap(55, Short.MAX_VALUE)
+                .addComponent(jLabel73)
+                .addGap(18, 18, 18)
+                .addComponent(jButton3)
+                .addContainerGap(81, Short.MAX_VALUE))
+        );
+
+        jDialog4.setAlwaysOnTop(true);
+        jDialog4.setLocation(new java.awt.Point(100, 100));
+        jDialog4.setMinimumSize(new java.awt.Dimension(300, 200));
+
+        jButton4.setText("Ok");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+
+        jLabel74.setText("New Package Added");
+
+        javax.swing.GroupLayout jDialog4Layout = new javax.swing.GroupLayout(jDialog4.getContentPane());
+        jDialog4.getContentPane().setLayout(jDialog4Layout);
+        jDialog4Layout.setHorizontalGroup(
+            jDialog4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jDialog4Layout.createSequentialGroup()
+                .addContainerGap(92, Short.MAX_VALUE)
+                .addComponent(jLabel74)
+                .addContainerGap(102, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog4Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton4)
+                .addGap(51, 51, 51))
+        );
+        jDialog4Layout.setVerticalGroup(
+            jDialog4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog4Layout.createSequentialGroup()
+                .addContainerGap(55, Short.MAX_VALUE)
+                .addComponent(jLabel74)
+                .addGap(18, 18, 18)
+                .addComponent(jButton4)
+                .addContainerGap(81, Short.MAX_VALUE))
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new java.awt.CardLayout());
@@ -246,17 +439,17 @@ public class AdminView extends javax.swing.JFrame {
         mainPanelLayout.setVerticalGroup(
             mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mainPanelLayout.createSequentialGroup()
-                .addContainerGap(51, Short.MAX_VALUE)
+                .addContainerGap(53, Short.MAX_VALUE)
                 .addComponent(jLabel54)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
                 .addComponent(travellerButton)
-                .addGap(18, 30, Short.MAX_VALUE)
+                .addGap(18, 32, Short.MAX_VALUE)
                 .addComponent(advisorButton)
-                .addGap(18, 30, Short.MAX_VALUE)
+                .addGap(18, 32, Short.MAX_VALUE)
                 .addComponent(packagesButton)
-                .addGap(18, 30, Short.MAX_VALUE)
+                .addGap(18, 32, Short.MAX_VALUE)
                 .addComponent(bookButton)
-                .addContainerGap(184, Short.MAX_VALUE))
+                .addContainerGap(186, Short.MAX_VALUE))
         );
 
         getContentPane().add(mainPanel, "card1");
@@ -736,21 +929,21 @@ public class AdminView extends javax.swing.JFrame {
         aAddPanelLayout.setVerticalGroup(
             aAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(aAddPanelLayout.createSequentialGroup()
-                .addContainerGap(28, Short.MAX_VALUE)
+                .addContainerGap(30, Short.MAX_VALUE)
                 .addComponent(jLabel44)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
                 .addGroup(aAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel45)
                     .addComponent(aId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 23, Short.MAX_VALUE)
+                .addGap(18, 25, Short.MAX_VALUE)
                 .addGroup(aAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel46)
                     .addComponent(aName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 23, Short.MAX_VALUE)
+                .addGap(18, 25, Short.MAX_VALUE)
                 .addGroup(aAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel47)
                     .addComponent(aGender, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 26, Short.MAX_VALUE)
+                .addGap(18, 28, Short.MAX_VALUE)
                 .addGroup(aAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel48)
                     .addComponent(aAge, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -762,7 +955,7 @@ public class AdminView extends javax.swing.JFrame {
                 .addGroup(aAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(addAdvisor)
                     .addComponent(aCancel))
-                .addContainerGap(129, Short.MAX_VALUE))
+                .addContainerGap(131, Short.MAX_VALUE))
         );
 
         getContentPane().add(aAddPanel, "aAddCard");
@@ -778,10 +971,10 @@ public class AdminView extends javax.swing.JFrame {
         jLabel27.setLabelFor(trGender);
         jLabel27.setText("Advisor Id :");
 
-        addTour.setText("Add Tour");
-        addTour.addActionListener(new java.awt.event.ActionListener() {
+        nextAddTour.setText("Next");
+        nextAddTour.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                addTourActionPerformed(evt);
+                nextAddTourActionPerformed(evt);
             }
         });
 
@@ -809,7 +1002,7 @@ public class AdminView extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tAddPanelLayout.createSequentialGroup()
                         .addComponent(tCancel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(addTour))
+                        .addComponent(nextAddTour))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tAddPanelLayout.createSequentialGroup()
                         .addGroup(tAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel27)
@@ -833,33 +1026,33 @@ public class AdminView extends javax.swing.JFrame {
         tAddPanelLayout.setVerticalGroup(
             tAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(tAddPanelLayout.createSequentialGroup()
-                .addContainerGap(33, Short.MAX_VALUE)
+                .addContainerGap(34, Short.MAX_VALUE)
                 .addComponent(jLabel31)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
                 .addGroup(tAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel24)
                     .addComponent(tTrId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 24, Short.MAX_VALUE)
+                .addGap(18, 29, Short.MAX_VALUE)
                 .addGroup(tAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel26)
                     .addComponent(tPId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 24, Short.MAX_VALUE)
+                .addGap(18, 29, Short.MAX_VALUE)
                 .addGroup(tAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel27)
                     .addComponent(tAId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 28, Short.MAX_VALUE)
+                .addGap(18, 29, Short.MAX_VALUE)
                 .addGroup(tAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(tNoOfDep, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 28, Short.MAX_VALUE)
+                .addGap(18, 29, Short.MAX_VALUE)
                 .addGroup(tAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel32)
                     .addComponent(tDate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 28, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 29, Short.MAX_VALUE)
                 .addGroup(tAddPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(tCancel)
-                    .addComponent(addTour))
-                .addContainerGap(110, Short.MAX_VALUE))
+                    .addComponent(nextAddTour))
+                .addContainerGap(107, Short.MAX_VALUE))
         );
 
         getContentPane().add(tAddPanel, "tAddCard");
@@ -919,43 +1112,44 @@ public class AdminView extends javax.swing.JFrame {
         pDisPanel.setLayout(pDisPanelLayout);
         pDisPanelLayout.setHorizontalGroup(
             pDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pDisPanelLayout.createSequentialGroup()
-                .addContainerGap(134, Short.MAX_VALUE)
-                .addGroup(pDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel20)
-                    .addComponent(jLabel18)
-                    .addComponent(jLabel17)
-                    .addComponent(jLabel16)
-                    .addComponent(jLabel15))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pDisPanelLayout.createSequentialGroup()
+                .addGap(27, 27, 27)
+                .addComponent(pCancel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 107, Short.MAX_VALUE)
+                .addComponent(jLabel19)
+                .addContainerGap(215, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pDisPanelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(pDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(pDisPanelLayout.createSequentialGroup()
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pDisPanelLayout.createSequentialGroup()
+                        .addGroup(pDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel20)
+                            .addComponent(jLabel18)
+                            .addComponent(jLabel17)
+                            .addComponent(jLabel16)
+                            .addComponent(jLabel15))
                         .addGap(27, 27, 27)
                         .addGroup(pDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(pDescLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)
+                            .addComponent(pDescLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(pDaysLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(pIdLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(pDestLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(pAmtLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(pDisPanelLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
-                        .addComponent(pCancel1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(pAmtLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(84, 84, 84))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pDisPanelLayout.createSequentialGroup()
                         .addComponent(prevPackage)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(nextPackage)
-                        .addGap(14, 14, 14))))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pDisPanelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel19)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(44, 44, 44))))
         );
         pDisPanelLayout.setVerticalGroup(
             pDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pDisPanelLayout.createSequentialGroup()
-                .addContainerGap(55, Short.MAX_VALUE)
-                .addComponent(jLabel19)
-                .addGap(18, 43, Short.MAX_VALUE)
+                .addContainerGap(118, Short.MAX_VALUE)
+                .addGroup(pDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel19)
+                    .addComponent(pCancel1))
+                .addGap(39, 39, 39)
                 .addGroup(pDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel16)
                     .addComponent(pIdLabel))
@@ -971,16 +1165,15 @@ public class AdminView extends javax.swing.JFrame {
                 .addGroup(pDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel20)
                     .addComponent(pAmtLabel))
-                .addGap(18, 49, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(pDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel15)
-                    .addComponent(pDescLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 55, Short.MAX_VALUE)
+                    .addComponent(pDescLabel))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(pDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(nextPackage)
-                    .addComponent(pCancel1)
                     .addComponent(prevPackage))
-                .addGap(29, 29, 29))
+                .addGap(78, 78, 78))
         );
 
         getContentPane().add(pDisPanel, "pDisCard");
@@ -1057,9 +1250,11 @@ public class AdminView extends javax.swing.JFrame {
         trDisPanelLayout.setHorizontalGroup(
             trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, trDisPanelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(45, 45, 45)
+                .addComponent(trDisBack)
+                .addGap(87, 87, 87)
                 .addComponent(jLabel29)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(223, Short.MAX_VALUE))
             .addGroup(trDisPanelLayout.createSequentialGroup()
                 .addContainerGap(150, Short.MAX_VALUE)
                 .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1071,49 +1266,46 @@ public class AdminView extends javax.swing.JFrame {
                     .addComponent(jLabel22, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel21, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addGap(27, 27, 27)
-                .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(trMobLabel)
                     .addGroup(trDisPanelLayout.createSequentialGroup()
-                        .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(trMobLabel)
-                            .addGroup(trDisPanelLayout.createSequentialGroup()
-                                .addComponent(trTripsLabel)
-                                .addGap(32, 32, 32)
-                                .addComponent(trips))
-                            .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addGroup(trDisPanelLayout.createSequentialGroup()
-                                    .addComponent(trDisBack)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(prevTraveller))
-                                .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(trStatusLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)
-                                    .addComponent(trAgeLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(trIdLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(trNameLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(trGenderLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                        .addGap(0, 72, Short.MAX_VALUE))
-                    .addGroup(trDisPanelLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(nextTraveller)))
-                .addContainerGap())
+                        .addComponent(trTripsLabel)
+                        .addGap(32, 32, 32)
+                        .addComponent(trips))
+                    .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(trStatusLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)
+                        .addComponent(trAgeLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(trIdLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(trNameLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(trGenderLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, trDisPanelLayout.createSequentialGroup()
+                            .addComponent(prevTraveller)
+                            .addGap(0, 91, Short.MAX_VALUE))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, trDisPanelLayout.createSequentialGroup()
+                            .addGap(72, 72, 72)
+                            .addComponent(nextTraveller))))
+                .addContainerGap(78, Short.MAX_VALUE))
         );
         trDisPanelLayout.setVerticalGroup(
             trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(trDisPanelLayout.createSequentialGroup()
-                .addContainerGap(53, Short.MAX_VALUE)
-                .addComponent(jLabel29)
-                .addGap(18, 35, Short.MAX_VALUE)
+                .addContainerGap(54, Short.MAX_VALUE)
+                .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel29)
+                    .addComponent(trDisBack))
+                .addGap(18, 36, Short.MAX_VALUE)
                 .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel22)
                     .addComponent(trIdLabel))
-                .addGap(18, 36, Short.MAX_VALUE)
+                .addGap(18, 37, Short.MAX_VALUE)
                 .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel23)
                     .addComponent(trNameLabel))
-                .addGap(18, 37, Short.MAX_VALUE)
+                .addGap(18, 38, Short.MAX_VALUE)
                 .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel25)
                     .addComponent(trAgeLabel))
-                .addGap(18, 35, Short.MAX_VALUE)
+                .addGap(18, 38, Short.MAX_VALUE)
                 .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jlabel88)
                     .addComponent(trGenderLabel))
@@ -1130,12 +1322,11 @@ public class AdminView extends javax.swing.JFrame {
                     .addComponent(jLabel1)
                     .addComponent(trTripsLabel)
                     .addComponent(trips))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
+                .addGap(30, 30, 30)
                 .addGroup(trDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(trDisBack)
                     .addComponent(nextTraveller)
                     .addComponent(prevTraveller))
-                .addGap(29, 29, 29))
+                .addGap(45, 45, 45))
         );
 
         getContentPane().add(trDisPanel, "trDisCard");
@@ -1200,44 +1391,45 @@ public class AdminView extends javax.swing.JFrame {
         aDisPanelLayout.setHorizontalGroup(
             aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, aDisPanelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(45, 45, 45)
+                .addComponent(aDisCancel)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 86, Short.MAX_VALUE)
                 .addComponent(jLabel52)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(aDisPanelLayout.createSequentialGroup()
-                .addContainerGap(152, Short.MAX_VALUE)
-                .addGroup(aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel53)
-                    .addComponent(jLabel51)
-                    .addComponent(jLabel50)
-                    .addComponent(jLabel49)
-                    .addComponent(jLabel42))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addContainerGap(234, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, aDisPanelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(aDisPanelLayout.createSequentialGroup()
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, aDisPanelLayout.createSequentialGroup()
+                        .addComponent(prevAdvisor)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(nextAdvisor))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, aDisPanelLayout.createSequentialGroup()
+                        .addGroup(aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel53)
+                            .addComponent(jLabel51)
+                            .addComponent(jLabel50)
+                            .addComponent(jLabel49)
+                            .addComponent(jLabel42))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(aTripsLabel)
                             .addGroup(aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(aMobLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)
+                                .addComponent(aMobLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(aAgeLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(aIdLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(aNameLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(aGenderLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                        .addContainerGap())
-                    .addGroup(aDisPanelLayout.createSequentialGroup()
-                        .addGap(0, 24, Short.MAX_VALUE)
-                        .addComponent(aDisCancel)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(prevAdvisor)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(nextAdvisor))))
+                                .addComponent(aGenderLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(99, 99, 99))))
         );
         aDisPanelLayout.setVerticalGroup(
             aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(aDisPanelLayout.createSequentialGroup()
-                .addContainerGap(96, Short.MAX_VALUE)
-                .addComponent(jLabel52)
-                .addGap(18, 18, Short.MAX_VALUE)
+                .addContainerGap(72, Short.MAX_VALUE)
+                .addGroup(aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel52, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(aDisCancel, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addGap(35, 35, 35)
                 .addGroup(aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel49)
                     .addComponent(aIdLabel))
@@ -1253,7 +1445,7 @@ public class AdminView extends javax.swing.JFrame {
                 .addGroup(aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel53)
                     .addComponent(aGenderLabel))
-                .addGap(18, 18, Short.MAX_VALUE)
+                .addGap(18, 35, Short.MAX_VALUE)
                 .addGroup(aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel42)
                     .addComponent(aMobLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -1261,30 +1453,152 @@ public class AdminView extends javax.swing.JFrame {
                 .addGroup(aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(aTripsLabel))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 86, Short.MAX_VALUE)
+                .addGap(69, 69, 69)
                 .addGroup(aDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(nextAdvisor)
-                    .addComponent(aDisCancel)
                     .addComponent(prevAdvisor))
-                .addContainerGap(50, Short.MAX_VALUE))
+                .addContainerGap(63, Short.MAX_VALUE))
         );
 
         getContentPane().add(aDisPanel, "aDisCard");
 
         tDisPanel.setPreferredSize(new java.awt.Dimension(500, 500));
 
+        jLabel63.setFont(new java.awt.Font("Optima", 1, 18)); // NOI18N
+        jLabel63.setText("Trips");
+
+        jLabel64.setText("Traveller Name :");
+
+        jLabel65.setText("Advisor Name:");
+
+        jLabel66.setText("Destination :");
+
+        jLabel67.setText("Date :");
+
+        jLabel68.setText("Amount :");
+
+        jLabel69.setText("No. of Persons :");
+
+        tripTravellerLabel1.setText("jLabel62");
+
+        tripAdvisorLabel1.setText("jLabel63");
+
+        tripDestLabel1.setText("jLabel64");
+
+        tripDateLabel1.setText("jLabel65");
+
+        tripNoLabel1.setText("jLabel66");
+
+        tripAmtLabel1.setText("jLabel67");
+
+        confirmTrip.setText("Confirm");
+        confirmTrip.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                confirmTripActionPerformed(evt);
+            }
+        });
+
+        tripDisBack1.setText("Back");
+        tripDisBack1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tripDisBack1ActionPerformed(evt);
+            }
+        });
+
+        jLabel70.setText("Extended Days :");
+
+        tripExtDayLabel1.setText("jLabel63");
+
+        javax.swing.GroupLayout tripsDisPanel1Layout = new javax.swing.GroupLayout(tripsDisPanel1);
+        tripsDisPanel1.setLayout(tripsDisPanel1Layout);
+        tripsDisPanel1Layout.setHorizontalGroup(
+            tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(tripsDisPanel1Layout.createSequentialGroup()
+                .addGroup(tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(tripsDisPanel1Layout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addComponent(tripDisBack1)
+                        .addGap(102, 102, 102)
+                        .addComponent(jLabel63, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(tripsDisPanel1Layout.createSequentialGroup()
+                        .addGap(126, 126, 126)
+                        .addGroup(tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel67)
+                            .addComponent(jLabel65)
+                            .addComponent(jLabel64)
+                            .addComponent(jLabel66)
+                            .addComponent(jLabel68)
+                            .addComponent(jLabel69)
+                            .addComponent(jLabel70))
+                        .addGap(18, 18, 18)
+                        .addGroup(tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(tripTravellerLabel1)
+                            .addComponent(tripAdvisorLabel1)
+                            .addComponent(tripDestLabel1)
+                            .addComponent(tripDateLabel1)
+                            .addComponent(tripNoLabel1)
+                            .addComponent(tripAmtLabel1)
+                            .addComponent(tripExtDayLabel1))))
+                .addContainerGap(201, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tripsDisPanel1Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(confirmTrip)
+                .addGap(72, 72, 72))
+        );
+        tripsDisPanel1Layout.setVerticalGroup(
+            tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(tripsDisPanel1Layout.createSequentialGroup()
+                .addGap(70, 70, 70)
+                .addGroup(tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel63)
+                    .addComponent(tripDisBack1))
+                .addGap(18, 18, 18)
+                .addGroup(tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel64)
+                    .addComponent(tripTravellerLabel1))
+                .addGap(18, 18, 18)
+                .addGroup(tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel65)
+                    .addComponent(tripAdvisorLabel1))
+                .addGap(18, 18, 18)
+                .addGroup(tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel66)
+                    .addComponent(tripDestLabel1))
+                .addGap(18, 18, 18)
+                .addGroup(tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel67)
+                    .addComponent(tripDateLabel1))
+                .addGap(22, 22, 22)
+                .addGroup(tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel69)
+                    .addComponent(tripNoLabel1))
+                .addGap(18, 18, 18)
+                .addGroup(tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel68)
+                    .addComponent(tripAmtLabel1))
+                .addGap(18, 18, 18)
+                .addGroup(tripsDisPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel70)
+                    .addComponent(tripExtDayLabel1))
+                .addGap(18, 18, 18)
+                .addComponent(confirmTrip)
+                .addContainerGap(124, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout tDisPanelLayout = new javax.swing.GroupLayout(tDisPanel);
         tDisPanel.setLayout(tDisPanelLayout);
         tDisPanelLayout.setHorizontalGroup(
             tDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 500, Short.MAX_VALUE)
+            .addComponent(tripsDisPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         tDisPanelLayout.setVerticalGroup(
             tDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 512, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tDisPanelLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(tripsDisPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        getContentPane().add(tDisPanel, "tDisPanel");
+        getContentPane().add(tDisPanel, "tDisCard");
 
         trAddPanel.setPreferredSize(new java.awt.Dimension(500, 500));
 
@@ -1394,16 +1708,150 @@ public class AdminView extends javax.swing.JFrame {
 
         getContentPane().add(trAddPanel, "trAddCard");
 
+        jLabel35.setFont(new java.awt.Font("Optima", 1, 18)); // NOI18N
+        jLabel35.setText("Trips");
+
+        jLabel3.setText("Traveller Name :");
+
+        jLabel4.setText("Advisor Name:");
+
+        jLabel5.setText("Destination :");
+
+        jLabel43.setText("Date :");
+
+        jLabel60.setText("Amount :");
+
+        jLabel61.setText("No. of Persons :");
+
+        tripTravellerLabel.setText("jLabel62");
+
+        tripAdvisorLabel.setText("jLabel63");
+
+        tripDestLabel.setText("jLabel64");
+
+        tripDateLabel.setText("jLabel65");
+
+        tripNoLabel.setText("jLabel66");
+
+        tripAmtLabel.setText("jLabel67");
+
+        nextTrip.setText("Next");
+        nextTrip.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                nextTripActionPerformed(evt);
+            }
+        });
+
+        tripDisBack.setText("Back");
+        tripDisBack.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tripDisBackActionPerformed(evt);
+            }
+        });
+
+        prevTrip.setText("Prev");
+        prevTrip.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                prevTripActionPerformed(evt);
+            }
+        });
+
+        jLabel62.setText("Extended Days :");
+
+        tripExtDayLabel.setText("jLabel63");
+
+        javax.swing.GroupLayout tripsDisPanelLayout = new javax.swing.GroupLayout(tripsDisPanel);
+        tripsDisPanel.setLayout(tripsDisPanelLayout);
+        tripsDisPanelLayout.setHorizontalGroup(
+            tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(tripsDisPanelLayout.createSequentialGroup()
+                .addGroup(tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(tripsDisPanelLayout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addComponent(tripDisBack)
+                        .addGap(102, 102, 102)
+                        .addComponent(jLabel35, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(tripsDisPanelLayout.createSequentialGroup()
+                        .addGap(126, 126, 126)
+                        .addGroup(tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel43)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel60)
+                            .addComponent(jLabel61)
+                            .addComponent(jLabel62))
+                        .addGap(18, 18, 18)
+                        .addGroup(tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(tripTravellerLabel)
+                            .addComponent(tripAdvisorLabel)
+                            .addComponent(tripDestLabel)
+                            .addComponent(tripDateLabel)
+                            .addComponent(tripNoLabel)
+                            .addComponent(tripAmtLabel)
+                            .addComponent(tripExtDayLabel))))
+                .addContainerGap(201, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tripsDisPanelLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(prevTrip)
+                .addGap(18, 18, 18)
+                .addComponent(nextTrip)
+                .addGap(17, 17, 17))
+        );
+        tripsDisPanelLayout.setVerticalGroup(
+            tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(tripsDisPanelLayout.createSequentialGroup()
+                .addGap(70, 70, 70)
+                .addGroup(tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel35)
+                    .addComponent(tripDisBack))
+                .addGap(18, 18, 18)
+                .addGroup(tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(tripTravellerLabel))
+                .addGap(18, 18, 18)
+                .addGroup(tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(tripAdvisorLabel))
+                .addGap(18, 18, 18)
+                .addGroup(tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5)
+                    .addComponent(tripDestLabel))
+                .addGap(18, 18, 18)
+                .addGroup(tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel43)
+                    .addComponent(tripDateLabel))
+                .addGap(22, 22, 22)
+                .addGroup(tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel61)
+                    .addComponent(tripNoLabel))
+                .addGap(18, 18, 18)
+                .addGroup(tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel60)
+                    .addComponent(tripAmtLabel))
+                .addGap(18, 18, 18)
+                .addGroup(tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel62)
+                    .addComponent(tripExtDayLabel))
+                .addGap(21, 21, 21)
+                .addGroup(tripsDisPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(nextTrip)
+                    .addComponent(prevTrip))
+                .addContainerGap(121, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(tripsDisPanel, "tripDisCard");
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     
-    private void addTourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addTourActionPerformed
+    private void nextAddTourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextAddTourActionPerformed
         // TODO add your handling code here:
         String tid, pid, aid;
         int dep;
         String dateString;
-        DateFormat df = new SimpleDateFormat("dd/mm/yyyy");
+        DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
         java.util.Date uDate = null;
         tid = (String)tTrId.getSelectedItem();
         pid = (String)tPId.getSelectedItem();
@@ -1413,12 +1861,21 @@ public class AdminView extends javax.swing.JFrame {
         try {
             uDate = df.parse(dateString);
             java.sql.Date sDate = new java.sql.Date(uDate.getTime()); 
-            db.addTour(tid, pid, aid, dep, sDate);
+            
         } catch (ParseException ex) {
             Logger.getLogger(AdminView.class.getName()).log(Level.SEVERE, null, ex);
-        }       
-        cl.show(mainPanel.getParent(), "card1");
-    }//GEN-LAST:event_addTourActionPerformed
+        }   
+        //
+        tripTravellerLabel1.setText(db.getName("Traveller", "name", tid));
+        tripAdvisorLabel1.setText(db.getName("Travel_Advisor", "name", aid));
+        tripDestLabel1.setText(db.getName("Packages", "Destination", pid));
+        tripDateLabel1.setText(dateString);
+        tripNoLabel1.setText(Integer.toString(dep));
+        tripAmtLabel1.setText(Integer.toString(db.calcAmt(tid, pid , dep)));
+        tripExtDayLabel1.setText(Integer.toString(db.getExtDays(tid)));
+        //
+        cl.show(tDisPanel.getParent(), "tDisCard");
+    }//GEN-LAST:event_nextAddTourActionPerformed
 
     private void tCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tCancelActionPerformed
         // TODO add your handling code here:
@@ -1435,7 +1892,8 @@ public class AdminView extends javax.swing.JFrame {
         amt = Integer.parseInt(pAmt.getText());
         days = Integer.parseInt(pDays.getText());
         db.addPackage(id, dest, days, amt, desc);
-        cl.show(packagePanel.getParent(), "packageCard");
+        //cl.show(packagePanel.getParent(), "packageCard");
+        jDialog4.setVisible(true);
     }//GEN-LAST:event_addPackageActionPerformed
 
     private void pCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pCancelActionPerformed
@@ -1455,7 +1913,8 @@ public class AdminView extends javax.swing.JFrame {
         age = Integer.parseInt(aAge.getText());
         mob = Integer.parseInt(aMob.getText());
         db.addAdvisor(id, name, gen, mob, age);
-        cl.show(advisorPanel.getParent(), "advisorCard");
+        //cl.show(advisorPanel.getParent(), "advisorCard");
+        jDialog3.setVisible(true);
     }//GEN-LAST:event_addAdvisorActionPerformed
 
     private void aCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aCancelActionPerformed
@@ -1480,21 +1939,20 @@ public class AdminView extends javax.swing.JFrame {
     }//GEN-LAST:event_pCancel1ActionPerformed
 
     private void tripsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tripsActionPerformed
-        // TODO add your handling code here:
-//        db.get("Tour", "id", id);
-//        if(db.rs!=null){
-//            try{
-//                if(db.rs.next()){
-//                    showTrips(); 
-//                }
-//                else{
-//                    
-//                }
-//            }
-//            catch(SQLException e){
-//                System.out.println(e);
-//            }            
-//        }
+        try {
+            // TODO add your handling code here:
+            db.getTrip("Traveller_id", db.rs.getString("Id"));
+            if(db.rs1.next()){
+                showTrips(); 
+            }
+            else{
+                System.out.println("a");
+            }
+        }
+        catch(SQLException e){
+            System.out.println(e);
+        }            
+        
     }//GEN-LAST:event_tripsActionPerformed
 
     private void trDisBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_trDisBackActionPerformed
@@ -1548,10 +2006,6 @@ public class AdminView extends javax.swing.JFrame {
         // TODO add your handling code here:
         String Id = aIdSearchField.getText();
         String name = aNameSearchField.getText();
-        //db.getValue("Travel_Advisor", "Id", Id);
-        System.out.println(Id);
-        System.out.println(name);
-        System.out.println("2");
         try {
             if(!Id.equals("")&&!name.equals("")){
                db.getValue("Travel_Advisor", "Id", Id, "name", name);
@@ -1724,61 +2178,161 @@ public class AdminView extends javax.swing.JFrame {
         age = Integer.parseInt(trAge.getText());
         mob = Integer.parseInt(trMob.getText());
         db.addTraveller(id, name, gen, age, mob);
-        cl.show(travellerPanel.getParent(), "travellerCard");
+        //cl.show(travellerPanel.getParent(), "travellerCard");
+        jDialog2.setVisible(true);
     }//GEN-LAST:event_addTravellerActionPerformed
 
     private void trSearchButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_trSearchButtonActionPerformed
         // TODO add your handling code here:
-//        String Id = trIdSearchField.getText();
-//        String name = trNameSearchField.getText();
-//        if(!(Id==null)&&!(name==null)){
-//            db.getValue("Traveller", "Id", Id, "name", name);
-//        }
-//        else if(!(Id==null)){
-//            db.getValue("Traveller", "Id", Id);
-//        }
-//        else if(!(name == null)){
-//            db.getValue("Traveller", "name", name);
-//        }
-//        else{
-//            //ENTER SOME VALUE
-//        }
-//        showTraveller();
-        cl.show(trDisPanel.getParent(), "trDisCard");
+        String Id = trIdSearchField.getText();
+        String name = trNameSearchField.getText();
+        try{
+            if(!(Id.equals(""))&&!(name.equals(""))){
+                db.getValue("Traveller", "Id", Id, "name", name);
+            }
+            else if(!(Id.equals(""))){
+                db.getValue("Traveller", "Id", Id);
+            }
+            else if(!(name.equals(""))){
+                db.getValue("Traveller", "name", name);
+            }
+            else{
+                db.get("Traveller");
+                //ENTER SOME VALUE
+            }
+            if(db.rs.next()){
+                showTraveller();
+            }
+            else{
+
+            }
+        }
+        catch(SQLException e){
+            System.out.println(e);
+        }
+        //cl.show(trDisPanel.getParent(), "trDisCard");
     }//GEN-LAST:event_trSearchButtonActionPerformed
 
     private void pSearchButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pSearchButtonActionPerformed
         // TODO add your handling code here:
-//        String Id = pIdSearchField.getText();
-//        String dest = pDestSearchField.getText();
-//        String days = pDaysSearchField.getText();
-//        if(Id!=null&&dest!=null&&days!=null){
-//            rs = db.getValue("Packages", "Id", Id, "Destination", dest, "Days", Integer.parseInt(days));
-//        }
-//        else if(Id!=null && dest!=null){
-//            rs = db.getValue("Packages", "Id", Id, "Destination", dest);
-//        }
-//        else if(dest!= null && days!=null){
-//            rs = db.getValue("Packages", "Destination", dest, "Days", Integer.parseInt(days));
-//        }
-//        else if(Id != null && days!=null){
-//            rs = db.getValue("Packages", "Id", Id, "Days", Integer.parseInt(days));
-//        }
-//        else if(Id!=null){
-//            rs = db.getValue("Packages", "Id", Id);
-//        }
-//        else if(dest!=null){
-//            rs = db.getValue("Packages", "Destination", dest);
-//        }
-//        else if(days!=null){
-//            rs = db.getValue("Packages", "Days", Integer.parseInt(days));
-//        }
-//        else{
-//            
-//        }
-        showPackage();
-        cl.show(pDisPanel.getParent(), "pDisCard");
+        String Id = pIdSearchField.getText();
+        String dest = pDestSearchField.getText();
+        String days = pDaysSearchField.getText();
+        try{
+            if(!Id.equals("")&&!dest.equals("")&&!days.equals("")){
+                db.getValue("Packages", "Id", Id, "Destination", dest, "Days", Integer.parseInt(days));
+            }
+            else if(!Id.equals("") && !dest.equals("")){
+                db.getValue("Packages", "Id", Id, "Destination", dest);
+            }
+            else if(!dest.equals("")&& !days.equals("")){
+                db.getValue("Packages", "Destination", dest, "Days", Integer.parseInt(days));
+            }
+            else if(!Id.equals("") && !days.equals("")){
+                db.getValue("Packages", "Id", Id, "Days", Integer.parseInt(days));
+            }
+            else if(!Id.equals("")){
+                db.getValue("Packages", "Id", Id);
+            }
+            else if(!dest.equals("")){
+                db.getValue("Packages", "Destination", dest);
+            }
+            else if(!days.equals("")){
+                db.getValue("Packages", "No_of_days", Integer.parseInt(days));
+            }
+            else{
+                db.get("Packages");
+            }
+            if(db.rs.next()){
+                showPackage();
+            }
+            else{
+
+            }
+        } catch (SQLException ex) {
+            System.out.println(ex);
+        }
+        //cl.show(pDisPanel.getParent(), "pDisCard");
     }//GEN-LAST:event_pSearchButtonActionPerformed
+
+    private void nextTripActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextTripActionPerformed
+        // TODO add your handling code here:
+        try{
+            db.rs1.next();
+        }
+        catch(SQLException e){
+            System.out.println(e);
+        }
+        showTrips();
+    }//GEN-LAST:event_nextTripActionPerformed
+
+    private void tripDisBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tripDisBackActionPerformed
+        // TODO add your handling code here:
+        cl.show(trDisPanel.getParent(), "trDisCard");
+    }//GEN-LAST:event_tripDisBackActionPerformed
+
+    private void prevTripActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_prevTripActionPerformed
+        // TODO add your handling code here:
+        try{
+            db.rs1.previous();
+        }
+        catch(SQLException e){
+            System.out.println(e);
+        }
+        showTrips();
+    }//GEN-LAST:event_prevTripActionPerformed
+
+    private void confirmTripActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_confirmTripActionPerformed
+        // TODO add your handling code here:
+        String tid, pid, aid;
+        int dep;
+        String dateString;
+        DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
+        java.util.Date uDate = null;
+        tid = (String)tTrId.getSelectedItem();
+        pid = (String)tPId.getSelectedItem();
+        aid = (String)tAId.getSelectedItem();
+        dep = Integer.parseInt(tNoOfDep.getText());
+        dateString = tDate.getText();
+        try {
+            uDate = df.parse(dateString);
+            java.sql.Date sDate = new java.sql.Date(uDate.getTime()); 
+            db.addTour(tid, pid, aid, dep, sDate);
+        } catch (ParseException ex) {
+            Logger.getLogger(AdminView.class.getName()).log(Level.SEVERE, null, ex);
+        } 
+        //cl.show(mainPanel.getParent(), "card1");
+        jDialog1.setVisible(true);
+    }//GEN-LAST:event_confirmTripActionPerformed
+
+    private void tripDisBack1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tripDisBack1ActionPerformed
+        // TODO add your handling code here:
+        cl.show(tAddPanel.getParent(), "tAddCard");
+    }//GEN-LAST:event_tripDisBack1ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        jDialog1.setVisible(false);
+        cl.show(mainPanel.getParent(), "card1");
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        jDialog2.setVisible(false);
+        cl.show(travellerPanel.getParent(), "travellerCard");
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        jDialog3.setVisible(false);
+        cl.show(advisorPanel.getParent(), "advisorCard");
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        jDialog4.setVisible(false);
+        cl.show(packagePanel.getParent(), "packageCard");
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     void showInCombo(javax.swing.JComboBox cb, String table, String col){
         javax.swing.DefaultComboBoxModel m = (javax.swing.DefaultComboBoxModel)cb.getModel();
@@ -1867,6 +2421,36 @@ public class AdminView extends javax.swing.JFrame {
     }
     
     void showTrips(){
+        try{       
+            if(!db.rs1.isLast())
+                nextTrip.setEnabled(true);
+            else
+                nextTrip.setEnabled(false);
+            if(!db.rs1.isFirst())
+                prevTrip.setEnabled(true);
+            else
+                prevTrip.setEnabled(false);
+            
+            String tid = db.rs1.getString("Traveller_Id");
+            String aid = db.rs1.getString("Advisor_Id");
+            String pid = db.rs1.getString("Package_Id");
+            int dep = db.rs1.getInt("No_of_dependents");
+            tripTravellerLabel.setText(db.getName("Traveller", "name", tid));
+            tripAdvisorLabel.setText(db.getName("Travel_Advisor", "name", aid));
+            tripDestLabel.setText(db.getName("Packages", "Destination", pid));
+            tripDateLabel.setText(db.getDate());
+            tripNoLabel.setText(Integer.toString(dep));
+            tripAmtLabel.setText(Integer.toString(db.calcAmt(tid, pid , dep)));
+            tripExtDayLabel.setText(Integer.toString(db.getExtDays(tid)));
+            cl.show(tripsDisPanel.getParent(), "tripDisCard");           
+        }
+        catch(SQLException e){
+            System.out.println(e);
+        }
+        
+    }
+    
+    void showBooked(){
         
     }
     
@@ -1927,12 +2511,20 @@ public class AdminView extends javax.swing.JFrame {
     private javax.swing.JLabel aTripsLabel;
     private javax.swing.JButton addAdvisor;
     private javax.swing.JButton addPackage;
-    private javax.swing.JButton addTour;
     private javax.swing.JButton addTraveller;
     private javax.swing.JButton advisorBack;
     private javax.swing.JButton advisorButton;
     private javax.swing.JPanel advisorPanel;
     private javax.swing.JButton bookButton;
+    private javax.swing.JButton confirmTrip;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JDialog jDialog1;
+    private javax.swing.JDialog jDialog2;
+    private javax.swing.JDialog jDialog3;
+    private javax.swing.JDialog jDialog4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1955,24 +2547,29 @@ public class AdminView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
     private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel49;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
@@ -1984,16 +2581,33 @@ public class AdminView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel58;
     private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabel99;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel jlabel88;
     private javax.swing.JPanel mainPanel;
+    private javax.swing.JButton nextAddTour;
     private javax.swing.JButton nextAdvisor;
     private javax.swing.JButton nextPackage;
     private javax.swing.JButton nextTraveller;
+    private javax.swing.JButton nextTrip;
     private javax.swing.JButton pAddButton;
     private javax.swing.JPanel pAddPanel;
     private javax.swing.JTextField pAmt;
@@ -2020,6 +2634,7 @@ public class AdminView extends javax.swing.JFrame {
     private javax.swing.JButton prevAdvisor;
     private javax.swing.JButton prevPackage;
     private javax.swing.JButton prevTraveller;
+    private javax.swing.JButton prevTrip;
     private javax.swing.JComboBox<String> tAId;
     private javax.swing.JPanel tAddPanel;
     private javax.swing.JButton tCancel;
@@ -2052,7 +2667,25 @@ public class AdminView extends javax.swing.JFrame {
     private javax.swing.JButton travellerBack;
     private javax.swing.JButton travellerButton;
     private javax.swing.JPanel travellerPanel;
+    private javax.swing.JLabel tripAdvisorLabel;
+    private javax.swing.JLabel tripAdvisorLabel1;
+    private javax.swing.JLabel tripAmtLabel;
+    private javax.swing.JLabel tripAmtLabel1;
+    private javax.swing.JLabel tripDateLabel;
+    private javax.swing.JLabel tripDateLabel1;
+    private javax.swing.JLabel tripDestLabel;
+    private javax.swing.JLabel tripDestLabel1;
+    private javax.swing.JButton tripDisBack;
+    private javax.swing.JButton tripDisBack1;
+    private javax.swing.JLabel tripExtDayLabel;
+    private javax.swing.JLabel tripExtDayLabel1;
+    private javax.swing.JLabel tripNoLabel;
+    private javax.swing.JLabel tripNoLabel1;
+    private javax.swing.JLabel tripTravellerLabel;
+    private javax.swing.JLabel tripTravellerLabel1;
     private javax.swing.JButton trips;
+    private javax.swing.JPanel tripsDisPanel;
+    private javax.swing.JPanel tripsDisPanel1;
     // End of variables declaration//GEN-END:variables
 }
 
@@ -2062,7 +2695,7 @@ class Database {
     PreparedStatement prepStmt;
     Statement stmt;
     String query;
-    ResultSet rs;
+    ResultSet rs, rs1, temp;
     
     Database(){
         try{
@@ -2181,22 +2814,15 @@ class Database {
     int getDisc(String tid){
         int disc=0;
         try{
-            query = "select Discount_percent from Traveller t, Status s where t.Id = ? and t.status=s.status";
+            query = "select Discount_percent from Traveller t, Traveller_Status s where t.Id = ? and t.status=s.status";
             prepStmt = con.prepareStatement(query);
             prepStmt.setString(1, tid);
-            rs = prepStmt.executeQuery();
-            disc = rs.getInt("Discount_percent");
+            temp = prepStmt.executeQuery();
+            temp.next();
+            disc = temp.getInt("Discount_percent");
         }
         catch(SQLException e){
-           System.out.println(e); 
-        }
-        finally{
-            try{
-                prepStmt.close();
-            }
-            catch(SQLException e){
-                System.out.println(e);
-            }
+           System.out.println("Disc"+e); 
         }
         return disc;
     }
@@ -2204,22 +2830,15 @@ class Database {
     int getExtDays(String tid){
         int days=0;
         try{
-            query = "select Extended_days from Traveller t, Status s where t.Id = ? and t.status=s.status";
+            query = "select Extended_days from Traveller t, Traveller_Status s where t.Id = ? and t.status=s.status";
             prepStmt = con.prepareStatement(query);
-            prepStmt.setString(0, tid);
-            rs = prepStmt.executeQuery();
-            days = rs.getInt("Extended_days");
+            prepStmt.setString(1, tid);
+            temp = prepStmt.executeQuery();
+            temp.next();
+            days = temp.getInt("Extended_days");
         }
         catch(SQLException e){
-           System.out.println(e); 
-        }
-        finally{
-            try{
-                prepStmt.close();
-            }
-            catch(SQLException e){
-                
-            }
+           System.out.println("Ext : "+e); 
         }
         return days;
     }
@@ -2229,20 +2848,13 @@ class Database {
         try{
             query = "select Amount from Packages where Id = ?";
             prepStmt = con.prepareStatement(query);
-            prepStmt.setString(0, pid);
-            rs = prepStmt.executeQuery();
-            amt = rs.getInt("Amount");
+            prepStmt.setString(1, pid);
+            temp = prepStmt.executeQuery();
+            temp.next();
+            amt = temp.getInt("Amount");
         }
         catch(SQLException e){
-           System.out.println(e); 
-        }
-        finally{
-            try{
-                prepStmt.close();
-            }
-            catch(SQLException e){
-                
-            }
+           System.out.println("Amt : "+e); 
         }
         return amt;
     }
@@ -2253,6 +2865,37 @@ class Database {
         disc = getDisc(tid);
         tot = dep*amt*(100-disc)/100;
         return tot;
+    }
+    
+    String getDate(){
+        String date="";
+        DateFormat df = new SimpleDateFormat("dd/MM/yyyy");
+        try{
+            java.util.Date newDate = rs1.getTimestamp("DATE");
+            System.out.println(newDate);
+            date = df.format(newDate);
+        }
+        catch(SQLException e){
+           System.out.println("getDate : "+e); 
+        }
+        System.out.println(date);
+        return date;
+    }
+    
+    String getName(String table, String param1, String id){
+        String name="";
+        try{
+            query = "select "+param1+" from "+table+" where Id = ?";
+            prepStmt = con.prepareStatement(query);
+            prepStmt.setString(1, id);
+            temp = prepStmt.executeQuery();
+            temp.next();
+            name = temp.getString(param1);
+        }
+        catch(SQLException e){
+           System.out.println("Ext : "+e); 
+        }
+        return name;
     }
     
     void get(String table){ 
@@ -2278,15 +2921,18 @@ class Database {
         catch(SQLException e){
            System.out.println(e); 
         }
-//        finally{
-//            try{
-//                prepStmt.close();
-//            }
-//            catch(SQLException e){
-//                
-//            }
-//        }
-       // return rs;
+    }
+    
+    void getTrip(String param1, String value){
+        try{
+                query = "select * from Tour where "+param1+" = ?";
+                prepStmt = con.prepareStatement(query);
+                prepStmt.setString(1, value);
+                rs1 = prepStmt.executeQuery();     
+            }
+            catch(SQLException e){
+               System.out.println(e); 
+            }
     }
     
     void getValue(String table, String param1, String value){
@@ -2334,15 +2980,6 @@ class Database {
         catch(SQLException e){
            System.out.println(e); 
         }
-//        finally{
-//            try{
-//                prepStmt.close();
-//            }
-//            catch(SQLException e){
-//                
-//            }
-//        }
-//        return rs;
     }
     
     void getValue(String table, String param1, String value1, String param2, int value2){
